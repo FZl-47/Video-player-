@@ -1,0 +1,431 @@
+@media screen and (min-width:0px) {
+    .a-font {
+        font-size: 2px !important;
+    }
+
+    .Menu-item {
+        font-size: 5px !important;
+    }
+
+    .font-item {
+        font-size: 5px;
+    }
+
+    .Input-Speed {
+        /* height: 20px; */
+        font-size: 13px !important;
+    }
+
+    .Input-Name {
+        font-size: 5px;
+    }
+
+    #inp_Name_1 {
+        width: 70px;
+    }
+
+    #inp_Name_2 {
+        width: 70px;
+
+    }
+
+    #inp_Name_3 {
+        width: 70px;
+
+    }
+
+    #inp_Name_4 {
+        width: 70px;
+
+    }
+}
+
+@media screen and (min-width:300px) {
+    .a-font {
+        font-size: 8px !important;
+    }
+
+    .font-item {
+        font-size: 10px;
+    }
+
+    .Menu-item {
+        font-size: 8px !important;
+    }
+
+    .Input-Speed {
+        /* height: 20px!important; */
+        font-size: 15px !important;
+    }
+
+    .Input-Name {
+        font-size: 7px;
+    }
+
+    #inp_Name_1 {
+        width: 100px;
+    }
+
+    #inp_Name_2 {
+        width: 100px;
+
+    }
+
+    #inp_Name_3 {
+        width: 100px;
+
+    }
+
+    #inp_Name_4 {
+        width: 100px;
+
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .a-font {
+        font-size: 12px !important;
+
+    }
+
+    .font-item {
+        font-size: 15px;
+    }
+
+    .Menu-item {
+        font-size: 15px !important;
+    }
+
+    .Input-Speed {
+        /* height: 20px!important; */
+        font-size: 13px !important;
+    }
+
+    .Input-Name {
+        font-size: 8px;
+    }
+
+    #inp_Name_1 {
+        width: 140px;
+    }
+
+    #inp_Name_2 {
+        width: 140px;
+
+    }
+
+    #inp_Name_3 {
+        width: 140px;
+
+    }
+
+    #inp_Name_4 {
+        width: 140px;
+
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .a-font {
+        font-size: 14px !important;
+
+    }
+
+    .font-item {
+        font-size: 15px;
+    }
+
+    .Menu-item {
+        font-size: 15px !important;
+    }
+
+    .Input-Speed {
+        /* height: 20px!important; */
+        font-size: 15px !important;
+    }
+
+    .Input-Name {
+        font-size: 15px;
+    }
+
+    #inp_Name_1 {
+        width: 190px;
+    }
+
+    #inp_Name_2 {
+        width: 190px;
+
+    }
+
+    #inp_Name_3 {
+        width: 190px;
+
+    }
+
+    #inp_Name_4 {
+        width: 190px;
+
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .a-font {
+        font-size: 17px !important;
+    }
+
+    .font-item {
+        font-size: 20px;
+    }
+
+    .Menu-item {
+        font-size: 20px !important;
+    }
+
+    .Input-Speed {
+        height   : 20px;
+        font-size: 15px !important;
+    }
+
+    .Input-Name {
+        font-size: 15px;
+    }
+
+    #inp_Name_1 {
+        width: 200px;
+    }
+
+    #inp_Name_2 {
+        width: 200px;
+
+    }
+
+    #inp_Name_3 {
+        width: 200px;
+
+    }
+
+    #inp_Name_4 {
+        width: 200px;
+
+    }
+}
+
+ul {
+    text-decoration: none;
+    list-style     : none;
+    padding        : 0;
+    margin         : 0;
+}
+
+.Input-Speed {
+    display  : inline-block !important;
+    width    : 14vw;
+    max-width: 70px;
+    min-width: 20px;
+    margin   : 5px;
+}
+
+.Input-Name {
+    width        : 95% !important;
+    border       : .5px solid rgb(37, 191, 234);
+    padding      : 5px 2px;
+    border-radius: 5px;
+    margin       : 3px 0;
+}
+
+.li-Speed {
+    padding-left  : 10px;
+    padding-bottom: 50px;
+    margin-bottom : 20px;
+}
+
+.li-Speed:nth-child(odd) {
+    background-color: rgb(233, 233, 233);
+}
+
+.li-Speed:nth-child(even) {
+    background-color: rgb(182, 181, 181);
+}
+
+.img-Speed-info {
+    margin: 0 20;
+    float : right;
+}
+
+#btn-Reset {
+    display: block !important;
+}
+
+#btn-submit {
+    display: block !important;
+}
+
+@font-face {
+    font-family: English-1;
+    src        : url('../fonts_video_player_fzl/Font/English/Font-1/Font.woff');
+}
+
+@font-face {
+    font-family: English-2;
+    src        : url('../fonts_video_player_fzl/Font/English/Font-2/Font.woff');
+}
+
+@font-face {
+    font-family: English-3;
+    src        : url('../fonts_video_player_fzl/Font/English/Font-3/Font.woff');
+}
+
+@font-face {
+    font-family: English-4;
+    src        : url('../fonts_video_player_fzl/Font/English/Font-4/Font.woff');
+}
+
+@font-face {
+    font-family: English-5;
+    src        : url('../fonts_video_player_fzl/Font/English/Font-5/Font.woff');
+}
+
+
+@font-face {
+    font-family: English-6;
+    src        : url('../fonts_video_player_fzl/Font/English/Font-6/Font.woff');
+}
+
+@font-face {
+    font-family: English-7;
+    src        : url('../fonts_video_player_fzl/Font/English/Font-7/Font.woff');
+
+}
+
+@font-face {
+    font-family: English-8;
+    src        : url('../fonts_video_player_fzl/Font/English/Font-8/Font.woff');
+}
+
+@font-face {
+    font-family: English-9;
+    src        : url('../fonts_video_player_fzl/Font/English/Font-9/Font.woff');
+}
+
+@font-face {
+    font-family: English-10;
+    src        : url('../fonts_video_player_fzl/Font/English/Font-10/Font.woff');
+}
+
+@font-face {
+    font-family: English-11;
+    src        : url('../fonts_video_player_fzl/Font/English/Font-11/Font.woff');
+}
+
+
+
+@font-face {
+    font-family: Ir-1;
+    src        : url('../fonts_video_player_fzl/Font/Persian/Font-1/Font.woff');
+}
+
+@font-face {
+    font-family: Ir-2;
+    src        : url('../fonts_video_player_fzl/Font/Persian/Font-2/Font.woff');
+}
+
+@font-face {
+    font-family: Ir-3;
+    src        : url('../fonts_video_player_fzl/Font/Persian/Font-3/Font.woff');
+}
+
+@font-face {
+    font-family: Ir-4;
+    src        : url('../fonts_video_player_fzl/Font/Persian/Font-4/Font.woff');
+}
+
+@font-face {
+    font-family: Ir-5;
+    src        : url('../fonts_video_player_fzl/Font/Persian/Font-5/Font.woff');
+}
+
+@font-face {
+    font-family: Ir-6;
+    src        : url('../fonts_video_player_fzl/Font/Persian/Font-6/Font.woff');
+}
+
+
+.font-item[value~="Font-En-1"] {
+    font-family: English-1
+}
+
+.font-item[value~="Font-En-2"] {
+    font-family: English-2
+}
+
+.font-item[value~="Font-En-3"] {
+    font-family: English-3
+}
+
+.font-item[value~="Font-En-4"] {
+    font-family: English-4
+}
+
+.font-item[value~="Font-En-5"] {
+    font-family: English-5
+}
+
+.font-item[value~="Font-En-6"] {
+    font-family: English-6
+}
+
+.font-item[value~="Font-En-7"] {
+    font-family: English-7
+}
+
+.font-item[value~="Font-En-8"] {
+    font-family: English-8
+}
+
+.font-item[value~="Font-En-9"] {
+    font-family: English-9
+}
+
+.font-item[value~="Font-En-10"] {
+    font-family: English-10
+}
+
+.font-item[value~="Font-En-11"] {
+    font-family: English-11
+}
+
+.font-item[value~="Font-En-12"] {
+    font-family: Arial
+}
+
+
+.font-item[value~="Font-Ir-1"] {
+    font-family: Ir-1
+}
+
+.font-item[value~="Font-Ir-2"] {
+    font-family: Ir-2
+}
+
+.font-item[value~="Font-Ir-3"] {
+    font-family: Ir-3
+}
+
+.font-item[value~="Font-Ir-4"] {
+    font-family: Ir-4
+}
+
+.font-item[value~="Font-Ir-5"] {
+    font-family: Ir-5
+}
+
+.font-item[value~="Font-Ir-6"] {
+    font-family: Ir-6
+}
+
+
+.btn-font-warning {
+    position: absolute;
+    right   : 1%;
+    top     : 5%;
+}

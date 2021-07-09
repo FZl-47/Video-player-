@@ -1,0 +1,556 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css_js_video/index.css">
+  <script src="css_js_video/jq/jquery.js"></script>
+  <link rel="stylesheet" href="css_js_video/css_FZl.css">
+
+
+
+  <title>Setting</title>
+</head>
+
+
+<body style="background-color: rgba(190, 190, 190, 1);">
+
+
+  <header style="text-align: center; ">
+    <div style="box-shadow: 2px 2px 10px   rgb(210, 210, 210);border-radius: 20px; display: inline-block; width: 70%;">
+      <div style="display: inline-block; padding: 50px; width: 100%;">
+        <video class="video_player_fzl s g fef sfsd  reg "
+          style="width: 100%; border-radius: 10px; width: 70%;;background: lightblue; " >
+          <source src="video/bmw/144.mp4" size="Video-1" default>
+          <ad src="ad/takhtjamshid.mp4" addres-ad="https://en.wikipedia.org/wiki/Persepolis" time-reject="5" random=10 ></ad>
+        </video>
+      </div>
+    </div>
+  </header>
+  <button id="State_Effect_Btn_level1" style="display: inline-block; margin-left: 15%;margin-top: 10px;"
+    class="btn btn-success Menu-item" value="Effect">Effect Btns Setting</button>
+    <a href="https://t.me/fzl_4" class="Menu-item btn btn-info">Contact Us</a>
+  <div style="text-align: center; margin-bottom: 350px;">
+    <div style="width: 100%; height: 40px;background-color: none; margin:  auto  auto; display: block;" class="Menu">
+
+      <div style="width: 20%;height: 100%;display: inline-block;" class="dropdown">
+        <button class="dropdown-toggle btn btn-dark Menu-item Btn-menu-dropdown" style="width: 100%;height: 100%;"
+          data-toggle="dropdown" onclick="Name_onclic()">Name Btns<button class="btn-font-warning"
+            style="background: none;border: none; text-shadow: none; outline: none;"><a href="README-VID-FZl/Name-Btn-index.html"
+              target="_blank" style="display: block; width: 100%; height: 100%;color: red;text-decoration: none;"
+              class="fa fa-exclamation-circle a-font"></a></button></button>
+        <div class="dropdown-menu col-12" style="overflow: hidden;">
+
+
+          <input type="text" class="Input-Name" id="inp_Name_1"
+            style="margin-left: 5px; text-align: center;margin-right: 5px;" value="Theme">
+          <br>
+          <input type="text" class="Input-Name" id="inp_Name_2"
+            style="margin-left: 5px; text-align: center;margin-right: 5px;" value="Speed">
+          <br>
+          <input type="text" class="Input-Name" id="inp_Name_3"
+            style="margin-left: 5px; text-align: center;margin-right: 5px;" value="Sub">
+          <br>
+          <input type="text" class="Input-Name" id="inp_Name_4"
+            style="margin-left: 5px; text-align:center;margin-right:5px;" value="Quality">
+          <br>
+
+
+
+
+
+        </div>
+      </div>
+
+      <div style="position: relative; display: inline-block; width: 20%;height: 100%;">     
+        <button class="btn btn-dark Menu-item Speed " style="width: 100%;height: 100%;">
+        Speed
+       <button class="btn-font-warning"
+        style="background: none;border: none; text-shadow: none; outline: none;"><a href="README-VID-FZl/Speed-index.html"
+          target="_blank" style="display: block; width: 100%; height: 100%;color: red;text-decoration: none;"
+          class="fa fa-exclamation-circle a-font"></a></button>
+      </button>
+    </div>
+ 
+      <div class="dropdown " style="width: 20%; height: 100%; display: inline-block;">
+        <button class="btn btn-dark Menu-item Speed dropdown-toggle Btn-menu-dropdown" data-toggle="dropdown"
+          style="width: 100%;height: 100%;" onclick=btn_center_onclic()>
+          Btn Center
+          <button class="btn-font-warning" style="background: none;border: none; text-shadow: none; outline: none;"><a
+              href="README-VID-FZl/Btn-Center-index.html" target="_blank"
+              style="display: block; width: 100%; height: 100%;color: red;text-decoration: none;"
+              class="fa fa-exclamation-circle a-font"></a></button>
+        </button>
+        <div class="dropdown-menu col-12">
+          <button class="dropdown-item Menu-item btn_center active" style="text-align: center;" value="0"> <img
+              src="img_video_player_fzl/Img_btn/img_btn_0.jpg" class="dropdown-item Menu-item"
+              style="width:40%;height:33%;display: inline-block; min-width: 80px;"></button>
+          <button class="dropdown-item Menu-item btn_center" style="text-align: center;" value="1"> <img
+              src="img_video_player_fzl/Img_btn/img_btn_1.jpg" class="dropdown-item Menu-item"
+              style="width:40%;height:33%;display: inline-block; min-width: 80px;"></button>
+          <button class="dropdown-item Menu-item btn_center" style="text-align: center;" value="2"> <img
+              src="img_video_player_fzl/Img_btn/img_btn_2.jpg" class="dropdown-item Menu-item"
+              style="width:40%;height:33%;display: inline-block;min-width: 80px;"></button>
+
+          <button class="dropdown-item Menu-item btn_center" style="text-align: center;" value="3"> <img
+              src="img_video_player_fzl/Img_btn/img_btn_3.jpg" class="dropdown-item Menu-item"
+              style="width:40%;height:33%;display: inline-block;min-width: 80px;"></button>
+
+          <!-- <div style="text-align: center;" class=""> -->
+          <!-- <img src="img_video_player_fzl/Img_btn/img_btn_1.jpg" class="dropdown-item Menu-item"  style="width:100px;height:100px"> -->
+          <!-- </div> -->
+
+        </div>
+
+      </div>
+
+
+      <div style="width: 20%; height: 100%;display: inline-block;position: relative;">
+        <button style="width: 100%; height: 100%;" class="font btn btn-dark dropdown-toggle Menu-item" id="btn-Font">
+          Font <button class="btn-font-warning"
+            style="background: none;border: none; text-shadow: none; outline: none;"><a href="README-VID-FZl/Font-index.html"
+              target="_blank" style="display: block; width: 100%; height: 100%;color: red;text-decoration: none;"
+              class="fa fa-exclamation-circle a-font"></a></button></button>
+
+        <div style="display: none;position: absolute; width: 100%;top: 100%;left: 0;" id="div-Show-Font">
+          <button id="Div-Font-English" class="Menu-item btn btn-info dropdown-toggle"
+            style="width: 100%;">English</button>
+          <button id="Div-Font-Persian" class="Menu-item btn btn-info dropdown-toggle"
+            style="width: 100%;">Persian</button>
+          <div style="position: absolute; left: -20%; top: 50%;width: 100%;display: none; margin-bottom: 30px;"
+            id="Div-Show-Font-English">
+            <button class="font-item Font-En-12-Vid btn btn-success" value="Font-En-12"
+              style="text-align: center; display: block; width: 100%;">FZl 047</button>
+            <button class="font-item Font-En-1-Vid btn btn-secondary" value="Font-En-1"
+              style="text-align: center; display: block; width: 100%;">FZl 047</button>
+            <button class="font-item Font-En-2-Vid btn btn-secondary" value="Font-En-2"
+              style="text-align: center; display: block; width: 100%;">FZl 047</button>
+            <button class="font-item Font-En-3-Vid btn btn-secondary" value="Font-En-3"
+              style="text-align: center; display: block; width: 100%;">FZl 047</button>
+            <button class="font-item Font-En-4-Vid btn btn-secondary" value="Font-En-4"
+              style="text-align: center; display: block; width: 100%;">FZl 047</button>
+            <button class="font-item Font-En-5-Vid btn btn-secondary" value="Font-En-5"
+              style="text-align: center; display: block; width: 100%;">FZl 047</button>
+            <button class="font-item Font-En-6-Vid btn btn-secondary" value="Font-En-6"
+              style="text-align: center; display: block; width: 100%;">FZl 047</button>
+            <button class="font-item Font-En-7-Vid btn btn-secondary" value="Font-En-7"
+              style="text-align: center; display: block; width: 100%;">FZl 047</button>
+            <button class="font-item Font-En-8-Vid btn btn-secondary" value="Font-En-8"
+              style="text-align: center; display: block; width: 100%;">FZl 047</button>
+            <button class="font-item Font-En-9-Vid btn btn-secondary" value="Font-En-9"
+              style="text-align: center; display: block; width: 100%;">FZl 047</button>
+            <button class="font-item Font-En-10-Vid btn btn-secondary" value="Font-En-10"
+              style="text-align: center; display: block; width: 100%;">FZl 047</button>
+            <button class="font-item Font-En-11-Vid btn btn-secondary" value="Font-En-11"
+              style="text-align: center; display: block; width: 100%;">FZl 047</button>
+
+          </div>
+
+          <div style="position: absolute;left: -20%;top: 100%;display: none; margin-bottom: 30px; width: 100%;"
+            id="Div-Show-Persian">
+            <button class="font-item Font-Ir-1-Vid btn btn-secondary" value="Font-Ir-1"
+              style="text-align: center; display: block; width: 100%;">فاضل 047</button>
+            <button class="font-item Font-Ir-2-Vid btn btn-secondary" value="Font-Ir-2"
+              style="text-align: center; display: block; width: 100%;">فاضل 047</button>
+            <button class="font-item Font-Ir-3-Vid btn btn-secondary" value="Font-Ir-3"
+              style="text-align: center; display: block; width: 100%;">فاضل 047</button>
+            <button class="font-item Font-Ir-4-Vid btn btn-secondary" value="Font-Ir-4"
+              style="text-align: center; display: block; width: 100%;">فاضل 047</button>
+            <button class="font-item Font-Ir-5-Vid btn btn-secondary" value="Font-Ir-5"
+              style="text-align: center; display: block; width: 100%;">فاضل 047</button>
+            <button class="font-item Font-Ir-6-Vid btn btn-secondary" value="Font-Ir-6"
+              style="text-align: center; display: block; width: 100%;">فاضل 047</button>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+
+
+
+
+  <div id="Set_Speed" style="opacity: 0;width: 100%; background-color: rgba(25, 208, 228, 0.289); display: none;">
+    <ul class="Menu-item">
+      <li class="li-Speed">
+        <img src="img_video_player_fzl/img_FZl/Video-open-setting.png" class="img-Speed-info"
+          style="width: 20% ; height:100px;">
+        <p style="color: rgb(233, 64, 59);border: 1px solid black;border-width: 0 0 1 0; display: inline-block;">This
+          Inputs For Speed Delay Open And Close Setting </p>
+        <br>
+        <label>Speed Delay Open : </label><input type="number" class="Input-Speed form-control" id="Speed-open-setting"
+          style="text-align: center;" min="0" value="3">
+        <br>
+        <label>Speed Delay Close : </label><input type="number" class="Input-Speed form-control" id="Speed-close-setting"
+          style="text-align: center;" min="0" value="4">
+
+      </li>
+      <li class="li-Speed">
+        <img src="img_video_player_fzl/img_FZl/Video-fade-Control.png" class="img-Speed-info"
+          style="width: 20% ; height:100px;">
+        <p style="color: rgb(233, 64, 59);border: 1px solid black;border-width: 0 0 1 0; display: inline-block;">This
+          Input For Speed Delay Fade Control </p>
+        <br>
+        <label>Speed  DelayFade : </label><input type="number" class="Input-Speed form-control" id="Speed-fade-control"
+          style="text-align: center;" min="0" value="300">
+      </li>
+
+      <li class="li-Speed">
+        <img src="img_video_player_fzl/img_FZl/Video-Btn-Center.png" class="img-Speed-info form-control"
+          style="width: 20% ; height:100px;">
+        <p style="color: rgb(233, 64, 59);border: 1px solid black;border-width: 0 0 1 0; display: inline-block;">This
+          Input For Speed Delay Beat Btn Center Whene Loading Video </p>
+        <br>
+        <label>Speed Delay Beat : </label><input type="number" id="Speed-beat-btn-center" class="Input-Speed form-control"
+          style="text-align: center;" min="0" value="20">
+      </li>
+
+      <li class="li-Speed">
+        <img src="img_video_player_fzl/img_FZl/Video-Btn-Center.png" class="img-Speed-info form-control"
+          style="width: 20% ; height:100px;">
+        <p style="color: rgb(233, 64, 59);border: 1px solid black;border-width: 0 0 1 0; display: inline-block;">This
+          Input For Speed Delay Rotate Btn Center Whene Click </p>
+        <br>
+        <label>Speed Delay Rotate : </label><input type="number" id="Speed-rotate-btn-center" class="Input-Speed form-control"
+          style="text-align: center;" min="0" value="4.5">
+      </li>
+    </ul>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+  <button class="btn-submit btn btn-success  Menu-item" id="btn-submit"
+    style="width: 10%;margin-left: 10px; margin-bottom: 20px; " onclick="Set_Data_inp()">Register</button>
+  <button class="btn-Reset btn btn-danger Menu-item" id="btn-Reset"
+    style="width: 10%; margin-bottom: 20px; margin-left: 10px;" onclick=Set_Data_Default()>Reset</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="css_js_video/index.js"></script>
+
+<script>
+  let Counter_For_Open_or_Close_Fonts_Persian = "Show"
+  let Counter_For_Open_or_Close_Div_Show_Font = "Show"
+  let Counter_For_Open_or_Close_Fonts_English = "Show"
+  let Counter_for_Set_Data
+
+  document.getElementById("btn-Font").onclick = function (e) {
+    if (Counter_For_Open_or_Close_Div_Show_Font == "Show") {
+      document.getElementById("div-Show-Font").style.display = "inline-block"
+      Counter_For_Open_or_Close_Div_Show_Font = "NotShow"
+    } else {
+      document.getElementById("div-Show-Font").style.display = "none"
+      Counter_For_Open_or_Close_Div_Show_Font = "Show"
+      document.getElementById("div-Show-Font").style.display = "none"
+      document.getElementById("Div-Show-Font-English").style.display = "none"
+      Counter_For_Open_or_Close_Fonts_English = "Show"
+      Counter_For_Open_or_Close_Fonts_Persian = "Show"
+      document.getElementById("Div-Show-Persian").style.display = "none"
+    }
+  }
+
+  document.getElementById("Div-Font-English").onclick = function (e) {
+    if (Counter_For_Open_or_Close_Fonts_English == "Show") {
+      document.getElementById("Div-Show-Font-English").style.display = "inline-block"
+      Counter_For_Open_or_Close_Fonts_English = "NotShow"
+      Counter_For_Open_or_Close_Fonts_Persian = "Show"
+      document.getElementById("Div-Show-Persian").style.display = "none"
+    } else {
+      document.getElementById("Div-Show-Font-English").style.display = "none"
+      Counter_For_Open_or_Close_Fonts_English = "Show"
+    }
+  }
+
+  for (let k = 0; k < document.getElementsByClassName("Btn-menu-dropdown").length; k++) {
+    document.getElementsByClassName("Btn-menu-dropdown")[k].onclick = function (e) {
+      Counter_For_Open_or_Close_Div_Show_Font = "Show"
+      document.getElementById("div-Show-Font").style.display = "none"
+      document.getElementById("Div-Show-Font-English").style.display = "none"
+      Counter_For_Open_or_Close_Fonts_English = "Show"
+      Counter_For_Open_or_Close_Fonts_Persian = "Show"
+      document.getElementById("Div-Show-Persian").style.display = "none"
+
+    }
+  }
+  document.getElementById("Div-Font-Persian").onclick = function (e) {
+    if (Counter_For_Open_or_Close_Fonts_Persian == "Show") {
+      document.getElementById("Div-Show-Persian").style.display = "inline-block"
+      Counter_For_Open_or_Close_Fonts_Persian = "NoShow"
+      document.getElementById("Div-Show-Font-English").style.display = "none"
+      Counter_For_Open_or_Close_Fonts_English = "Show"
+    } else {
+      Counter_For_Open_or_Close_Fonts_Persian = "Show"
+      document.getElementById("Div-Show-Persian").style.display = "none"
+    }
+  }
+
+
+  for (let d = 0; d < document.getElementsByClassName("font-item").length; d++) {
+    document.getElementsByClassName("font-item")[d].onclick = function (e) {
+      for (let i = 0; i < document.getElementsByClassName("font-item").length; i++) {
+        document.getElementsByClassName("font-item")[i].className = "font-item btn btn-secondary"
+      }
+      e.target.className = "font-item btn btn-success"
+      Counter_for_Set_Data = e.target.value
+      Save_Data()
+      Run_Player_Fzl()
+      Get_Data()
+    }
+  }
+
+
+
+
+
+
+
+
+
+  let Counter_Btn_State_Effect_Onclick = 0
+  let State_Effect_Btn_level1 = "Effect"
+  let Counter_for_Show_Set_Speed = 1
+  let Timer_for_Show_Set_Speed = null
+  let Counter_Opacity_Set_Speed = 0
+  let Set_Speed_ = document.getElementById("Set_Speed")
+  document.getElementsByClassName("Speed")[0].onclick = function (e) {
+    Counter_for_Show_Set_Speed += 1
+    clearInterval(Timer_for_Show_Set_Speed)
+    Timer_for_Show_Set_Speed = setInterval(Timer_Show_Set_Speed, 20)
+  }
+
+  function Timer_Show_Set_Speed() {
+    if (Counter_for_Show_Set_Speed % 2 === 0) {
+      Set_Speed_.style.display = "inline-block"
+      Counter_Opacity_Set_Speed += 0.05
+      Set_Speed_.style.opacity = Counter_Opacity_Set_Speed
+      if (Counter_Opacity_Set_Speed >= 1) {
+        clearInterval(Timer_for_Show_Set_Speed)
+      }
+    } else {
+
+      Counter_Opacity_Set_Speed -= 0.05
+      Set_Speed_.style.opacity = Counter_Opacity_Set_Speed
+      if (Counter_Opacity_Set_Speed <= 0) {
+        Set_Speed_.style.display = "none"
+        clearInterval(Timer_for_Show_Set_Speed)
+      }
+
+    }
+  }
+
+  clearInterval(Timer_for_Show_Set_Speed)
+  Timer_for_Show_Set_Speed = setInterval(Timer_Show_Set_Speed, 20)
+
+  var State_Btn_ply = 0
+
+  for (let i = 0; i < document.getElementsByClassName("btn_center").length; i++) {
+
+    document.getElementsByClassName("btn_center")[i].onclick = function (e) {
+      for (let r = 0; r < document.getElementsByClassName("btn_center").length; r++) {
+        document.getElementsByClassName("btn_center")[r].className = "dropdown-item Menu-item btn_center"
+      }
+
+      let Btn_Center_Active
+      try {
+
+
+        e.composedPath().filter(function (e) {
+          let t = Array.prototype.slice.call(e.classList)
+          t.filter(function (x) {
+            if (x == "btn_center") {
+              Btn_Center_Active = e
+            }
+          })
+        });
+
+      } catch (e) { }
+      Btn_Center_Active.className = "dropdown-item Menu-item btn_center active"
+      State_Btn_ply = Btn_Center_Active.value
+      Save_Data()
+      Run_Player_Fzl()
+    }
+  }
+
+
+  function btn_center_onclic() {
+    Counter_for_Show_Set_Speed = 3
+    clearInterval(Timer_for_Show_Set_Speed)
+    Timer_for_Show_Set_Speed = setInterval(Timer_Show_Set_Speed, 20)
+  }
+
+  function Name_onclic() {
+    Counter_for_Show_Set_Speed = 3
+    clearInterval(Timer_for_Show_Set_Speed)
+    Timer_for_Show_Set_Speed = setInterval(Timer_Show_Set_Speed, 20)
+  }
+
+
+  var input_open_setting = document.getElementById("Speed-open-setting")
+  var input_close_setting = document.getElementById("Speed-close-setting")
+  var input_fade_control = document.getElementById("Speed-fade-control")
+  var input_Beat_Btn = document.getElementById("Speed-beat-btn-center")
+  var input_Rotate_Btn = document.getElementById("Speed-rotate-btn-center")
+
+  var input_Btn_level1_Theme = document.getElementById("inp_Name_1")
+  var input_Btn_level1_Speed = document.getElementById("inp_Name_2")
+  var input_Btn_level1_Sub = document.getElementById("inp_Name_3")
+  var input_Btn_level1_Quality = document.getElementById("inp_Name_4")
+  var Btn_State = document.getElementById("State_Effect_Btn_level1")
+
+  Btn_State.onclick = function () {
+    if (Counter_Btn_State_Effect_Onclick == 0) {
+      Btn_State.className = "btn btn-danger Menu-item"
+      Btn_State.value = "NoEffect"
+      Counter_Btn_State_Effect_Onclick = 1
+    } else {
+      Counter_Btn_State_Effect_Onclick = 0
+      Btn_State.className = "btn btn-success Menu-item"
+      Btn_State.value = "Effect"
+    }
+    Save_Data()
+    Run_Player_Fzl()
+    Get_Data()
+
+  }
+
+
+  function Set_Data_Default() {
+    localStorage.setItem("Font_Vid_Ply_FZl", "Font-En-12")
+    localStorage.setItem("value_inp_open_setting", 3)
+    localStorage.setItem("value_inp_close_setting", 4)
+    localStorage.setItem("value_inp_fade_control", 300)
+    localStorage.setItem("value_inp_beat_Btn", 20)
+    localStorage.setItem("value_inp_Rotate_Btn", 4.5)
+    localStorage.setItem("Btn_level1_Theme", "Theme")
+    localStorage.setItem("Btn_level1_Speed", "Speed")
+    localStorage.setItem("Btn_level1_Sub", "Sub")
+    localStorage.setItem("Btn_level1_Quality", "Quality")
+    localStorage.setItem("State_Btn_play", 0)
+    localStorage.setItem("Set_State_Effect_Btn_level1", "Effect")
+    Run_Player_Fzl()
+    Get_Data()
+  }
+
+
+
+
+
+
+
+
+
+
+
+  function Get_Data() {
+
+    // console.log(localStorage.getItem("Font_Vid_Ply_FZl"));
+
+    // document.querySelector(`.font-item[value='${localStorage.getItem("Font_Vid_Ply_FZl")}']`)
+
+    for (let x = 0; x < document.getElementsByClassName("font-item").length; x++) {
+      document.getElementsByClassName("font-item")[x].className = "font-item btn btn-secondary"
+    }
+    Counter_for_Set_Data = localStorage.getItem("Font_Vid_Ply_FZl")
+
+
+    try{
+      document.querySelector(`.font-item[value~='${Counter_for_Set_Data}']`).className = "font-item btn btn-success"
+    }catch(e){
+      Counter_for_Set_Data="Font-En-12"
+
+      document.querySelector(`.font-item[value~='${Counter_for_Set_Data}']`).className = "font-item btn btn-success"
+    }
+    input_open_setting.value = localStorage.getItem("value_inp_open_setting") || 4
+    input_close_setting.value = localStorage.getItem("value_inp_close_setting") || 3
+    input_fade_control.value = localStorage.getItem("value_inp_fade_control") || 300
+    input_Beat_Btn.value = localStorage.getItem("value_inp_beat_Btn") || 20
+    input_Rotate_Btn.value = localStorage.getItem("value_inp_Rotate_Btn") || 4.5
+    input_Btn_level1_Theme.value = localStorage.getItem("Btn_level1_Theme") || "Theme"
+    input_Btn_level1_Speed.value = localStorage.getItem("Btn_level1_Speed") || "Speed"
+    input_Btn_level1_Sub.value = localStorage.getItem("Btn_level1_Sub") || "Sub"
+    Btn_State.value = localStorage.getItem("Set_State_Effect_Btn_level1") || "Effect"
+    if (Btn_State.value == "Effect") {
+      Btn_State.className = "btn btn-success Menu-item"
+      Counter_Btn_State_Effect_Onclick = 0
+    } else {
+      Btn_State.className = "btn btn-danger Menu-item"
+      Counter_Btn_State_Effect_Onclick = 1
+    }
+    input_Btn_level1_Quality.value = localStorage.getItem("Btn_level1_Quality") || "Quality"
+    try {
+      State_Btn_ply = localStorage.getItem("State_Btn_play") || 0
+    } catch (e) { State_Btn_ply = 0 }
+    if (State_Btn_ply == undefined) {
+      State_Btn_ply = 0
+    }
+
+    for (let r = 0; r < document.getElementsByClassName("btn_center").length; r++) {
+      document.getElementsByClassName("btn_center")[r].className = "dropdown-item Menu-item btn_center"
+    }
+    try {
+      document.getElementsByClassName("btn_center")[State_Btn_ply].className = "dropdown-item Menu-item btn_center active"
+    } catch (e) {
+      State_Btn_ply = 0
+    }
+
+  }
+  window.onload = function () {
+    Get_Data()
+  }
+  function Set_Data_inp() {
+    Save_Data()
+    Run_Player_Fzl()
+    Get_Data()
+  }
+  function Save_Data() {
+    Btn_State = document.getElementById("State_Effect_Btn_level1")
+    input_open_setting = document.getElementById("Speed-open-setting")
+    input_close_setting = document.getElementById("Speed-close-setting")
+    input_fade_control = document.getElementById("Speed-fade-control")
+    input_Beat_Btn = document.getElementById("Speed-beat-btn-center")
+    input_Rotate_Btn = document.getElementById("Speed-rotate-btn-center")
+    localStorage.setItem("Font_Vid_Ply_FZl", Counter_for_Set_Data)
+    localStorage.setItem("value_inp_open_setting", input_open_setting.value)
+    localStorage.setItem("value_inp_close_setting", input_close_setting.value)
+    localStorage.setItem("value_inp_fade_control", input_fade_control.value)
+    localStorage.setItem("value_inp_beat_Btn", input_Beat_Btn.value)
+    localStorage.setItem("value_inp_Rotate_Btn", input_Rotate_Btn.value)
+    localStorage.setItem("State_Btn_play", State_Btn_ply)
+    localStorage.setItem("Btn_level1_Theme", document.getElementById("inp_Name_1").value)
+    localStorage.setItem("Btn_level1_Speed", document.getElementById("inp_Name_2").value)
+    localStorage.setItem("Btn_level1_Sub", document.getElementById("inp_Name_3").value)
+    localStorage.setItem("Btn_level1_Quality", document.getElementById("inp_Name_4").value)
+    localStorage.setItem("Set_State_Effect_Btn_level1", Btn_State.value)
+
+  }
+
+
+
+
+</script>
+
+</html>
